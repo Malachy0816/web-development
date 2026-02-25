@@ -1,0 +1,13 @@
+
+<!-- image with attatchment that will pass the function whem it is double clicked-->
+<img (dblclick)="onDblClick()"src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg"
+height="42" width="42">
+<br>
+<h2 [hidden]="hide">Look at the star.</h2>
+
+<!-- adds to toal amount when button is clicked -->
+<button (click)="addToAmt()">Press Me</button>
+<h1>The number of times the button has been pressed is {{pressed}}</h1>
+
+
+<app-listcomponent></app-listcomponent>dir
