@@ -1,0 +1,14 @@
+<h1>Student app</h1>
+<!-- loop through students array and display details-->
+@for(student of students;track student.id){
+    <li>{{student.name}}, {{student.id}}, {{student.age}}</li>
+}
+
+<br>
+
+<h1>Weather in Galway</h1>
+
+<!-- loop through weather array and display details-->
+@for(Weathere of weatherElement; track Weathere){
+    <li>{{Weathere.main}}, {{Weathere.description}}</li>
+}
